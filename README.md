@@ -1,3 +1,10 @@
+# 这是什么
+
+这是一个在React Native的JS层调用iOS原生代码的示例，其中主要讲述如何使用Swift语言去响应这个调用事件。
+
+只需要在AppDelegate.swift里边注册一下需要响应的事件，如让`TestReactEvent()`去响应`"Test"`事件，然后再编写一下`TestReactEvent`这个类即可。
+
+
 # 注册事件
 
 详见`AppDelegate.swift`文件
